@@ -1,0 +1,11 @@
+name: LastDeath
+version: '${project.version}'
+main: com.yanarn.lastdeath.LastDeath
+api-version: '1.20'
+
+# コマンド登録
+commands:
+  lastdeath:
+    aliases: ld
+    description: You can check the location of the last death.
+    permission: testplugin.command.test
